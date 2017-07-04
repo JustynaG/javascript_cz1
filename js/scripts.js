@@ -22,10 +22,8 @@ var value = (a * a) + (2 * a * b) - (b * b);
 
 console.log(value);
 
-if (value < 0) {
-	console.log('Wartość ujemmna');
-} else if (value > 0) {
-	console.log('Wartość dodatnia');
-} else { 
+if (value == 0) {
 	console.log('Wartość = 0');
+} else { 
+	console.log((value > 0) ? 'Wartość dodatnia' : 'Wartość ujemna');
 }
