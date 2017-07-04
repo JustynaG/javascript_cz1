@@ -1,0 +1,24 @@
+{
+  "name": "javascript_cz1",
+  "version": "1.0.0",
+  "description": "zadanie drugie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustynaG/javascript_cz1.git"
+  },
+  "author": "Justyna Golcew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustynaG/javascript_cz1/issues"
+  },
+  "homepage": "https://github.com/JustynaG/javascript_cz1#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
